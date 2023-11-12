@@ -1,0 +1,58 @@
+.firstQuadrant {
+    background-color: #0b4b7c !important;
+    padding:60px !important;
+}
+.secondQuadrant{
+    background-color: #023b64 !important;
+}
+
+.bigText{
+    font-size:26px !important;
+}
+
+.smallText{
+    font-size:17px !important;
+}
+.fontTitle{
+    font-size:15px !important;
+}
+.colorFontText{
+    color:white !important;
+    font-family: 'Montserrat' !important;
+}
+.textAlign{
+    text-align: left !important;
+}
+
+#inputAmount{
+    width: 83px !important;
+    border: 1px solid white !important;
+    background-color: #023b64 !important;
+}
+.sliderMin{
+    display:block !important;
+    position:absolute !important;
+    font-size:10px !important;
+    text-align:left !important;
+} 
+.sliderMax{
+    text-align: right !important;
+    font-size: 10px !important;
+}
+
+#inputInstallment{
+    width: 94px !important;
+    border: 1px solid white !important;
+    background-color: #023b64 !important;
+}
+
+#colorButtonGetCredit{
+    background-color: #1ead8e !important;
+}
+
+#colorButtonGetInstallment{
+    background-color: #0b4b7c !important;
+}
+ 
+
+  
