@@ -85,13 +85,21 @@ export default function Simulador (){
     const FullDescription =()=>{
         return(
 			<Grid>
-				<Grid.Row>
+				<Grid.Row >
 					<Grid.Column computer={1} mobile={16} tablet={16}></Grid.Column>
-						<Grid.Column computer={10} mobile={16} tablet={16}>
-							<p className='smallText colorFontText' style={{textAlign: "left"}}><strong>CUOTA FIJA POR MES </strong></p>
-						</Grid.Column>
-						<Grid.Column computer={5} mobile={16} tablet={16}>
-							<p className='smallText colorFontText'><strong>${cuotaXmes}</strong></p>
+					<Grid.Column computer={15} mobile={16} tablet={16}>
+					<Segment size='small' id="segmentFullDescription">
+					<Grid>
+						<Grid.Row >
+							<Grid.Column computer={8} mobile={16} tablet={16} style={{paddingTop: "12px"}}>
+								<p className='colorFontText' id="sizeTextFullDescription"><strong>CUOTA FIJA POR MES </strong></p>
+							</Grid.Column>
+							<Grid.Column computer={8} mobile={16} tablet={16}>
+								<p  className='colorFontText' id="sizeTextValueFullDescription" ><strong>${cuotaXmes}</strong></p>
+							</Grid.Column>
+						</Grid.Row>
+					</Grid>
+						</Segment>
 						</Grid.Column>
 				</Grid.Row>
 			</Grid>

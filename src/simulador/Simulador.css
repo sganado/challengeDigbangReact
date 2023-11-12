@@ -10,8 +10,16 @@
     font-size:26px !important;
 }
 
-.smallText{
-    font-size:17px !important;
+#sizeTextFullDescription{
+    font-size:16px !important;
+}
+
+#sizeTextValueFullDescription{
+    font-size:29px !important;
+}
+
+#segmentFullDescription{
+    background-color:#02355a !important;
 }
 .fontTitle{
     font-size:15px !important;
